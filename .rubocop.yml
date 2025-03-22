@@ -1,0 +1,14 @@
+require:
+  - standard
+
+inherit_gem:
+  standard: config/base.yml
+
+AllCops:
+  NewCops: enable
+  ParserEngine: parser_prism
+  TargetRubyVersion: 3.4
+
+plugins:
+  - rubocop-minitest
+
